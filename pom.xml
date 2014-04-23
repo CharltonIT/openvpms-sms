@@ -59,7 +59,7 @@
             <plugin>
                 <groupId>org.openvpms</groupId>
                 <artifactId>openvpms-archetype-maven-plugin</artifactId>
-                <version>${pom.version}</version>
+                <version>${project.version}</version>
                 <configuration>
                     <dir>src/main/resources/archetypes/org/openvpms/sms</dir>
                     <propertyfile>target/test-classes/hibernate.properties</propertyfile>
@@ -101,12 +101,12 @@
         <dependency>
             <groupId>org.openvpms</groupId>
             <artifactId>openvpms-framework</artifactId>
-            <version>${pom.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.openvpms</groupId>
             <artifactId>openvpms-archetypes</artifactId>
-            <version>${pom.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -121,7 +121,7 @@
         <dependency>
             <groupId>org.openvpms</groupId>
             <artifactId>openvpms-archetypes</artifactId>
-            <version>${pom.version}</version>
+            <version>${project.version}</version>
             <classifier>tests</classifier>
             <scope>test</scope>
         </dependency>
