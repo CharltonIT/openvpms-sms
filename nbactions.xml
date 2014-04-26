@@ -6,6 +6,9 @@
             <goals>
                 <goal>openvpms-archetype:load</goal>
             </goals>
+            <properties>
+                <skipTests>false</skipTests>
+            </properties>
         </action>
         <action>
             <actionName>build</actionName>
